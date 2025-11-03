@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link href="assets/css/styles.css" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kate Sylvia">
+  <meta name="description" content="Browse ReWear’s rotating closet—rent and swap dresses, jackets, suits, and more.">
+  <title>Shop • ReWear</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">ReWear</a>
+      <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#rwNav" aria-controls="rwNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="rwNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="shop.html">Shop</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="howDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">How it works</a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="howDrop">
+              <li><a class="dropdown-item" href="how-it-works.html#rent">Rent</a></li>
+              <li><a class="dropdown-item" href="how-it-works.html#swap">Swap</a></li>
+              <li><a class="dropdown-item" href="how-it-works.html#care">Care</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+      </ol>
+    </nav>
+
+    <header class="mb-4 d-flex align-items-center justify-content-between">
+      <h1 class="h3 m-0">Browse the closet</h1>
+      <a class="btn btn-rw" href="pricing.html"><i class="bi bi-stars"></i> See membership deals</a>
+    </header>
+
+    <div class="row g-4">
+      <!-- Item 1 -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card h-100 shadow-sm" role="button" data-rw-preview data-rw-src="assets/img/dress-1.jpg" data-rw-title="Satin Slip Dress">
+          <img src="assets/img/dress-1.jpg" class="card-img-top" alt="Satin slip dress in emerald green">
+          <div class="card-body">
+            <h2 class="h6">Satin Slip Dress <span class="badge badge-rw ms-1">New</span></h2>
+            <p class="small mb-2 text-muted">Weekend events • Sizes XS–XL</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-semibold">$29 / 4 days</span>
+              <button class="btn btn-sm btn-outline-dark">Rent</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card h-100 shadow-sm" role="button" data-rw-preview data-rw-src="assets/img/jacket-1.jpg" data-rw-title="Vegan Leather Jacket">
+          <img src="assets/img/jacket-1.jpg" class="card-img-top" alt="Black vegan leather moto jacket">
+          <div class="card-body">
+            <h2 class="h6">Vegan Leather Jacket</h2>
+            <p class="small mb-2 text-muted">Layering staple • Sizes XS–XXL</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-semibold">$24 / 4 days</span>
+              <button class="btn btn-sm btn-outline-dark">Rent</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card h-100 shadow-sm" role="button" data-rw-preview data-rw-src="assets/img/suit-1.jpg" data-rw-title="Tailored Suit Set">
+          <img src="assets/img/suit-1.jpg" class="card-img-top" alt="Women’s tailored suit in charcoal">
+          <div class="card-body">
+            <h2 class="h6">Tailored Suit Set</h2>
+            <p class="small mb-2 text-muted">Interviews & panels • Sizes 0–18</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-semibold">$39 / 4 days</span>
+              <button class="btn btn-sm btn-outline-dark">Rent</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card h-100 shadow-sm" role="button" data-rw-preview data-rw-src="assets/img/bag-1.jpg" data-rw-title="Convertible Tote">
+          <img src="assets/img/bag-1.jpg" class="card-img-top" alt="Convertible tote bag in tan">
+          <div class="card-body">
+            <h2 class="h6">Convertible Tote</h2>
+            <p class="small mb-2 text-muted">Everyday essential</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-semibold">$12 / 4 days</span>
+              <button class="btn btn-sm btn-outline-dark">Rent</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="imgModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imgModalTitle">Preview</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img id="imgModalSrc" src="" class="img-fluid" alt="Expanded product preview">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5 py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="m-0">© <span id="year"></span> ReWear • Circular fashion made easy</p>
+      <div class="d-flex gap-3">
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" aria-label="Envelope"><i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
